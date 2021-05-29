@@ -13,10 +13,10 @@
 		</form>
 	</body>
 	<script>
-		let input = document.getElementById("input").value;
-
 		document
 			.getElementById("button")
-			.addEventListener("click", (click) => alert(`Ciao ${input}`));
+			.addEventListener("click", (click) =>
+				alert(`Ciao ${document.getElementById("input").value}`)
+			);
 	</script>
 </html>
